@@ -5,7 +5,7 @@ pipeline {
         }
     }
     environment {
-        
+
     }
 
     stage('Checkout Code') {
@@ -41,5 +41,3 @@ pipeline {
             // Add cleanup steps that run regardless of pipeline success or failure
         }
     }
-}
-}
