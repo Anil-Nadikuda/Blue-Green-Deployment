@@ -5,7 +5,7 @@ pipeline {
         }
     }
     tools {
-        maven maven3
+        maven 'maven3'
     }
     triggers {
         // Trigger the pipeline when there's a GitHub push event
