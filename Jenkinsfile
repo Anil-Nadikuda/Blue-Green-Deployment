@@ -4,9 +4,6 @@ pipeline {
             label 'AGENT'
         }
     }
-    environment {
-
-    }
     triggers {
         // Trigger the pipeline when there's a GitHub push event
         githubPush()
