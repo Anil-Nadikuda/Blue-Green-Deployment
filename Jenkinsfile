@@ -7,6 +7,10 @@ pipeline {
     environment {
 
     }
+    triggers {
+        // Trigger the pipeline when there's a GitHub push event
+        githubPush()
+    }
     stages {
         stage('Checkout Code') {
             steps {
