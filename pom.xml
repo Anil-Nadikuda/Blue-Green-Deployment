@@ -75,15 +75,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.10.1</version> <!-- Ensure the version is compatible with Java 17 -->
-            <configuration>
-                <source>17</source>
-                <target>17</target>
-            </configuration>
-        </plugin>
 		</plugins>
 
 	
@@ -92,11 +83,11 @@
 		<distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://34.227.49.44:8081/repository/maven-releases/</url>
+            <url>http://65.2.129.62:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://34.227.49.44:8081/repository/maven-snapshots/</url>
+            <url>http://65.2.129.62:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
